@@ -1,4 +1,8 @@
 {
   "homeScreen.bigTitle.name": "Gilli Carmon",
-  "homeScreen.bigTitle.job": "Web & Mobile Developer"
+  "homeScreen.bigTitle.job": "Web & Mobile Developer",
+  "homeScreen.description": "I'm a developer from Israel. My passion is writing clean, elegant code for unique apps and websites.",
+  "homeScreen.contactButton.text": "Contact"
 }
+
+

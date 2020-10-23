@@ -1,10 +1,19 @@
 import React from "react";
-import { t } from "../../services/translation/translate";
+import styled from "styled-components";
+import { VerticalSpace } from "common/verticalSpace";
 import { Titles } from "./components/titles";
+import { ContactButton } from "./components/contactButton";
+
 export const ScreenHome = () => {
   return (
-    <div>
-        <Titles />
-    </div>
+    <Container>
+      <Titles />
+      <VerticalSpace height={50} />
+      <ContactButton />
+    </Container>
   );
 };
+
+const Container = styled.div`
+  padding: min(10vw, 100px);
+`;
