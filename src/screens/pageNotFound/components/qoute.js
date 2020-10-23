@@ -16,6 +16,6 @@ const Title = styled.h1`
   color: ${colorsPalette.BLACK};
   font-family: ${MAIN_FONT};
   font-weight: normal;
-  font-size: min(40vw, 40px);
+  font-size: min(30vw, 30px);
   text-align: center;
 `;
