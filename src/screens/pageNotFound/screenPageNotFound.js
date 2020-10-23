@@ -12,7 +12,6 @@ export const ScreenPageNotFound = () => {
       <Qoute />
       <br />
       <Explnation />
-      <BackgroundGradientRow />
     </Container>
   );
 };
