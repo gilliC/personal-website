@@ -2,7 +2,11 @@
   "homeScreen.bigTitle.name": "Gilli Carmon",
   "homeScreen.bigTitle.job": "Web & Mobile Developer",
   "homeScreen.description": "I'm a developer from Israel. My passion is writing clean, elegant code for unique apps and websites.",
-  "homeScreen.contactButton.text": "Contact"
+  "homeScreen.contactButton.text": "Contact",
+  "pageNotFoundScreen.qoute.text1": "“If you don’t know where you are going, any ",
+  "pageNotFoundScreen.qoute.text2": "road will take you there”",
+  "pageNotFoundScreen.explnation.text1": "OOPS..",
+  "pageNotFoundScreen.explnation.text2": "Page Not Found"
 }
 
 
