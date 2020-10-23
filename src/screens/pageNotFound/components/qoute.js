@@ -4,18 +4,16 @@ import { t } from "services/translation/translate";
 import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 
 export const Qoute = () => {
-  return (
-    <Title>
-      {t("pageNotFoundScreen.qoute.text1")} <br />
-      {t("pageNotFoundScreen.qoute.text2")}
-    </Title>
-  );
+  return <Title>{t("pageNotFoundScreen.qoute.text1")}</Title>;
 };
 
 const Title = styled.h1`
   color: ${colorsPalette.BLACK};
   font-family: ${MAIN_FONT};
   font-weight: normal;
-  font-size: min(30vw, 30px);
+  font-size: min(35vw, 35px);
   text-align: center;
+  letter-spacing: 10px;
+
+  width: 80%;
 `;

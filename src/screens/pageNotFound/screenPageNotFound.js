@@ -10,6 +10,7 @@ export const ScreenPageNotFound = () => {
     <Container>
       <Title404 />
       <Qoute />
+      <br />
       <Explnation />
       <BackgroundGradientRow />
     </Container>
