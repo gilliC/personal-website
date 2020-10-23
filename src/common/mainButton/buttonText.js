@@ -6,4 +6,5 @@ export const ButtonText = styled.p`
   font-family: ${MAIN_FONT};
   font-weight: 300;
   font-size: min(2vw, 24px);
+  transition: all 0.5s;
 `;
