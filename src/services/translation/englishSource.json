@@ -1,4 +1,10 @@
 {
+  "topBar.nameTitle":"GILLI CARMON",
+  "topBar.navLinks.home":"HOME",
+  "topBar.navLinks.about":"ABOUT",
+  "topBar.navLinks.projects":"PROJECTS",
+  "topBar.navLinks.articles":"ARTICLES",
+  "topBar.navLinks.contact":"CONTACT",
   "homeScreen.bigTitle.name": "Gilli Carmon",
   "homeScreen.bigTitle.job": "Web & Mobile Developer",
   "homeScreen.description": "I'm a developer from Israel. My passion is writing clean, elegant code for unique apps and websites.",

@@ -17,5 +17,6 @@ export const ScreenHome = () => {
 };
 
 const Container = styled.div`
-  padding: min(15vw, 150px);
+  padding-right: min(10vw, 100px);
+  padding-left: min(10vw, 100px);
 `;
