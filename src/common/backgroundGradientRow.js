@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { colorsPalette } from "services/styling/consts";
 import { useLocation } from "react-router-dom";
 
-export const BackgroundGradientRow = () => {
+export const BackgroundGradientRow = ({children}) => {
   const location = useLocation();
   const isShow = location.pathname !== '/';
-  return <ColorRow isShow={isShow} />;
+  return <ColorRow isShow={isShow} >{children}</ColorRow>
 };
 
 export const ColorRow = styled.div`
