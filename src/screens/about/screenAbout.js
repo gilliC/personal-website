@@ -4,13 +4,16 @@ import { BackgroundGradientRow } from "common/backgroundGradientRow";
 import { TextContainer } from "./components/textCotainer";
 import img from "assets/about_image.png";
 import { ScreenTitle } from "common/screenTitle";
+import { t } from "services/translation/translate";
+import { Description } from "./components/description";
 
 export const ScreenAbout = () => {
   return (
     <BackgroundGradientRow>
       <Container>
         <TextContainer>
-          <ScreenTitle text="About Me" />
+          <ScreenTitle>{t("aboutScreen.title")}</ScreenTitle>
+          <Description />
         </TextContainer>
         <img src={img} height={275} width={467} />
       </Container>

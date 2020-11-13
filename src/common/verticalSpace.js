@@ -1,10 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 
-export const VerticalSpace = ({ height}) => {
-  return <Container height={height} />;
-};
-
-const Container = styled.div`
-height: ${props=> props.height + 'px' || '20px' };
+export const VerticalSpace = styled.div`
+height: ${props=> !props.flex ? props.height + 'px' || '20px' : 'auto' };
+flex: ${props=> props.flex || 'auto' };
 `
