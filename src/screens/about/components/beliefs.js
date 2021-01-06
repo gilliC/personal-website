@@ -6,7 +6,7 @@ import { t } from "services/translation/translate";
 export const Beliefs = () => {
   return (
     <Container>
-      <BoldText>{t("aboutScreen.belifes.1")}</BoldText>
+      <BoldText isLeft>{t("aboutScreen.belifes.1")}</BoldText>
       <BoldText>{t("aboutScreen.belifes.cleanCode")}</BoldText>
       <BoldText>{t("aboutScreen.belifes.learning")}</BoldText>
       <BoldText>{t("aboutScreen.belifes.teamwork")}</BoldText>
@@ -14,5 +14,5 @@ export const Beliefs = () => {
   );
 };
 
-const BoldText = styled(TextMed)`font-weight: 600; font-size: 1.6vw; flex: 1;`;
+const BoldText = styled(TextMed)`font-weight: 600; font-size: 1.3vw; flex: 1; text-align: ${props=> props.isLeft? 'left' : 'center' }`;
 const Container = styled(TextMed)`display: flex; flex-direction: row; flex: 1;`;

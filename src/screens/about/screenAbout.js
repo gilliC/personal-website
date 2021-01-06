@@ -6,6 +6,8 @@ import img from "assets/about_image.png";
 import { ScreenTitle } from "common/screenTitle";
 import { t } from "services/translation/translate";
 import { Description } from "./components/description";
+import { SocialMediaIcons } from "./components/socialMediaIcons";
+import { VerticalSpace } from "common/verticalSpace";
 
 export const ScreenAbout = () => {
   return (
@@ -14,6 +16,8 @@ export const ScreenAbout = () => {
         <TextContainer>
           <ScreenTitle>{t("aboutScreen.title")}</ScreenTitle>
           <Description />
+          <VerticalSpace height={35} />
+          <SocialMediaIcons />
         </TextContainer>
         <img src={img} height={275} width={467} />
       </Container>
