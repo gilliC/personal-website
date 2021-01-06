@@ -8,5 +8,5 @@ export const TextContainer = styled.div`
   box-shadow: 0px 10px 10px 8px rgba(0,0,0,0.3);
   
   padding: 5vh 5vw; box-sizing: border-box;
-  position: absolute; top: 6vh; left: 5vw;
+  position: absolute; top: 25vh; left: 5vw;
 `;
