@@ -14,5 +14,5 @@ export const Beliefs = () => {
   );
 };
 
-const BoldText = styled(TextMed)`font-weight: 600; font-size: 20px; flex: 1;`;
+const BoldText = styled(TextMed)`font-weight: 600; font-size: 1.6vw; flex: 1;`;
 const Container = styled(TextMed)`display: flex; flex-direction: row; flex: 1;`;

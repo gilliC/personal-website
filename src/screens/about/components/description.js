@@ -22,5 +22,5 @@ export const Description = () => {
 };
 
 const BoldText = styled(TextMed)`
-  font-weight: 600; font-size: 20px;
+  font-weight: 600; font-size: 1.6vw;
 `;
