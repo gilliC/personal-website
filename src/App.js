@@ -1,12 +1,27 @@
 import "./App.css";
 import styled from "styled-components";
 import { getRoutesComponents } from "services/routes/getRoutesComponents";
+import { Switch, withRouter, BrowserRouter } from "react-router-dom";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+
+const AnimatedSwitch = withRouter(({ location }) => {
+  const routesComponents = getRoutesComponents();
+
+  return (
+    <TransitionGroup>
+      <CSSTransition key={location.key} classNames="slide" timeout={1000}>
+        <Switch location={location}>{routesComponents}</Switch>
+      </CSSTransition>
+    </TransitionGroup>
+  );
+});
 
 function App() {
-  const routesComponents = getRoutesComponents();
   return (
     <Wrapper className="App">
-      <div className="container">{routesComponents}</div>
+      <BrowserRouter>
+        <AnimatedSwitch />
+      </BrowserRouter>
     </Wrapper>
   );
 }
@@ -16,25 +31,29 @@ const Wrapper = styled.div`
     position: relative;
   }
 
-  .slide {
-    position: absolute;
-    left: 0;
-    right: 0;
+  .slide-enter,
+  .slide-exit {
+    transition: transform 1000ms ease-out;
   }
 
   .slide-enter {
     transform: translateX(100%);
   }
-  .slide-enter-active {
+
+  .slide-enter.slide-enter-active {
     transform: translateX(0%);
-    transition: all 1.5s linear;
   }
+
   .slide-exit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     transform: translateX(0%);
   }
+
   .slide-exit-active {
     transform: translateX(-100%);
-    transition: all 1.5s linear;
   }
 `;
 

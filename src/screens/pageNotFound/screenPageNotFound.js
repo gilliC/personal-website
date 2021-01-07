@@ -7,13 +7,14 @@ import { Title404 } from "./components/title404";
 
 export const ScreenPageNotFound = () => {
   return (
-    <Container>
-      <Title404 />
-      <BackgroundGradientRow />
-      <Qoute />
-      <br />
-      <Explnation />
-    </Container>
+    <BackgroundGradientRow>
+      <Container>
+        <Title404 />
+        <Qoute />
+        <br />
+        <Explnation />
+      </Container>
+    </BackgroundGradientRow>
   );
 };
 
