@@ -15,7 +15,7 @@ export const BackgroundGradientRow = ({ children }) => {
 const VerticalSpace = styled.div`height: 10vh`;
 
 export const ColorRow = styled.div`
-  background-image: linear-gradient(to bottom right, ${colorsPalette.MAIN_COLOR_FROM}, ${colorsPalette.MAIN_COLOR_TO});
+  background-image: linear-gradient(to right, ${colorsPalette.MAIN_COLOR_FROM}, ${colorsPalette.MAIN_COLOR_TO},  ${colorsPalette.MAIN_COLOR_FROM});
   height: 50vh;
   transition: width 0.5s ease-in-out;
   transition-delay: 0.5s;
