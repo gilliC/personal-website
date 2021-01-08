@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 
-export const Input = styled.input`
-  background-color: none;
+export const TextArea = styled.textarea`
+  background-color: white;
   border: 3px solid ${colorsPalette.MAIN_COLOR_TO}; border-radius: 7px;
-  line-height: 0;
   width: 100%;
   box-sizing: border-box;
   padding: 10px 15px;
@@ -28,18 +27,18 @@ export const Input = styled.input`
 
 
 :focus ~ label {
-  -moz-transform: translate(0, -35px);
-  -ms-transform: translate(0, -35px);
-  -webkit-transform: translate(0, -35px);
-  transform: translate(0, -35px);
+  -moz-transform: translate(0, -60px);
+  -ms-transform: translate(0, -60px);
+  -webkit-transform: translate(0, -60px);
+  transform: translate(0, -60px);
 }
 
 :valid ~ label {
   text-transform: uppercase;
   font-style: italic; font-family: ${MAIN_FONT};
-  -moz-transform: translate(5px, -35px) scale(0.6);
-  -ms-transform: translate(5px, -35px) scale(0.6);
-  -webkit-transform: translate(5px, -35px) scale(0.6);
-  transform: translate(5px, -35px) scale(0.6);
+  -moz-transform: translate(5px, -60px) scale(0.6);
+  -ms-transform: translate(5px, -60px) scale(0.6);
+  -webkit-transform: translate(5px, -60px) scale(0.6);
+  transform: translate(5px, -60px) scale(0.6);
 }
-`;
+`

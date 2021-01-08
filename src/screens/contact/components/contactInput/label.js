@@ -8,6 +8,6 @@ export const Label = styled.label`
   box-sizing: border-box;
   padding: 5px 15px;
   display: block; position: absolute;
-  margin-top: -40px; z-index: 2;
+  margin-top: ${props=> props.isTextArea ? '-80px' : '-40px'}; z-index: 2;
   pointer-events: none;
 `;
