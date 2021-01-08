@@ -4,7 +4,7 @@ import { TitleBig } from "common/titleBig";
 import { t } from "services/translation/translate";
 import { ScreenContainer } from "./components/screenContainer";
 import { colorsPalette } from "services/styling/consts";
-import { ContactInput } from "./components/contactInput";
+import { ContactInput } from "./components/contactInput/contactInput";
 
 export const ScreenContact = () => {
   return (
