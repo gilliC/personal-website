@@ -24,6 +24,12 @@
   "aboutScreen.belifes.learning": "LEARNING",
   "aboutScreen.belifes.teamwork": "TEAMWORK",
 
+  "contactScreen.title": "Interested in working together?",
+  "contactScreen.emailInput.label": "Email",
+  "contactScreen.nameInput.label": "Name",
+  "contactScreen.messageInput.label": "Message",
+  "contactScreen.sendButton.label": "Let's do this",
+
   "pageNotFoundScreen.qoute.text1": "“If you don’t know where you are going, any road will take you there”",
   "pageNotFoundScreen.explnation.text1": "OOPS..",
   "pageNotFoundScreen.explnation.text2": "Page Not Found"

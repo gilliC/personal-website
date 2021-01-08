@@ -31,5 +31,4 @@ const Container = styled.div`
   justify-content: flex-end;
   flex-direction: row;
   height: 100%;
-  background-color: teal;
 `;

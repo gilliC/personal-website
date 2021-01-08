@@ -10,6 +10,7 @@ export const NavLinks = () => {
       <Link label={t("topBar.navLinks.about")} to='/about'/>
       <Link label={t("topBar.navLinks.projects")} to='/projects'/>
       <Link label={t("topBar.navLinks.articles")} to='/articles'/>
+      <Link label={t("topBar.navLinks.contact")} to='/contact'/>
     </Container>
   );
 };
