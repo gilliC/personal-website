@@ -24,7 +24,6 @@ export const InputsRow = () => {
 };
 
 const Row = styled.div`
-  height: 9vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

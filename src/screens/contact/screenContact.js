@@ -4,6 +4,7 @@ import { t } from "services/translation/translate";
 import { ScreenContainer } from "./components/screenContainer";
 import { InputsRow } from "./components/inputsRow";
 import { MessageTextArea } from "./components/messageTextArea/messageTextArea";
+import { ButtonRow } from "./components/buttonRow/buttonRow";
 
 export const ScreenContact = () => {
   return (
@@ -11,7 +12,7 @@ export const ScreenContact = () => {
       <TitleBig>{t("contactScreen.title")}</TitleBig>
       <InputsRow />
       <MessageTextArea />
-      {/* <ContactInput label={t("contactScreen.messageInput.label")} multiline alt={t("contactScreen.messageInput.label")}/> */}
+      <ButtonRow />
     </ScreenContainer>
   );
 };

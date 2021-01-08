@@ -17,6 +17,8 @@ export const ScreenContainer = ({ children }) => {
 
 const ContentCotainerStyled = styled(ContentCotainer)`
 display: flex; flex-direction: column; flex: 1;
+position: absolute; top: 30vh;
+
 `;
 
 const Container = styled.div`
