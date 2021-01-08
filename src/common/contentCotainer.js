@@ -8,4 +8,11 @@ export const ContentCotainer = styled.div`
   box-shadow: 0px 10px 10px 8px rgba(0,0,0,0.3);
   
   padding: 5vh 5vw; box-sizing: border-box;
+  transition: 300ms linear all;
+
+  :hover{
+    border-color: ${colorsPalette.SECONDARY_COLOR_TO};
+    box-shadow: 0px 10px 10px 8px rgba(52, 0, 104,0.3);
+
+  }
 `;

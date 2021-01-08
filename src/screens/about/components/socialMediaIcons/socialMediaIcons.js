@@ -14,5 +14,4 @@ export const SocialMediaIcons = () => {
   );
 };
 
-const Icon = styled.a` flex: 1; align-self:center`;
 const Container = styled.div` width: 30%; flex-direction: row; display: flex;`;

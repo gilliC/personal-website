@@ -3,7 +3,7 @@ import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 
 export const Input = styled.input`
   background-color: none;
-  border: 3px solid ${colorsPalette.MAIN_COLOR_TO}; border-radius: 7px;
+  border: 2px solid ${colorsPalette.MAIN_COLOR_TO}; border-radius: 7px;
   line-height: 0;
   width: 100%;
   box-sizing: border-box;

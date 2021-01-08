@@ -3,12 +3,13 @@ import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 
 export const TextArea = styled.textarea`
   background-color: white;
-  border: 3px solid ${colorsPalette.MAIN_COLOR_TO}; border-radius: 7px;
+  border: 2px solid ${colorsPalette.MAIN_COLOR_TO}; border-radius: 7px;
   width: 100%;
   box-sizing: border-box;
   padding: 10px 15px;
   color: ${colorsPalette.BLACK}; font-weight: 400; font-size: 17px; font-family: ${MAIN_FONT};
   position: relative; z-index: 1; display: block;
+  resize: none;
 
 :-webkit-autofill,
 :-webkit-autofill:hover, 

@@ -19,7 +19,7 @@ export const ScreenAbout = () => {
           <VerticalSpace height={35} />
           <SocialMediaIcons />
         </TextContainer>
-        <img src={img} height={275} width={467} />
+        <img src={img} height={275} width={467} alt="programmer"/>
       </Container>
     </BackgroundGradientRow>
   );

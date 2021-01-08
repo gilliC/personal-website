@@ -11,5 +11,11 @@ export const LinkedIcon = ({ url, icon }) => {
   );
 };
 
-const Icon = styled.a` flex: 1; align-self: center;`;
+const Icon = styled.a` flex: 1; align-self: center;
+:hover svg {
+  color: ${colorsPalette.MAIN_COLOR_TO};
+  transition: 300ms linear all;
+
+}
+`;
 
