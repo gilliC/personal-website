@@ -22,8 +22,8 @@ export const Input = styled.input`
     outline: none;
     background-color: ${colorsPalette.MAIN_COLOR_TO};
   }
-  :valid {
-    background-color: ${colorsPalette.MAIN_COLOR_TO};
+  :not(:focus) {
+    background-color: ${colorsPalette.WHITE};
   }
 
 
