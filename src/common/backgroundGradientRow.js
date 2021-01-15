@@ -2,12 +2,13 @@ import styled from "styled-components";
 import { colorsPalette } from "services/styling/consts";
 import { useLocation } from "react-router-dom";
 
-export const BackgroundGradientRow = ({ children }) => {
+export const BackgroundGradientRow = ({ children, topComponent }) => {
   const location = useLocation();
   const isShow = location.pathname !== "/";
   return (
     <div>
       <VerticalSpace height={300} />
+      {topComponent}
       <ColorRow isShow={isShow}>{children}</ColorRow>
     </div>
   );
