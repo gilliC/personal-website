@@ -6,4 +6,6 @@ export const colorsPalette = {
     MAIN_COLOR_TO: '#49ADAD',
     SECONDARY_COLOR_FROM: '#6401C7',
     SECONDARY_COLOR_TO: '#340068',
+    PINK: '#FF6978',
+    GREY: '#707070'
 };
