@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { ArticleCard } from "./articleCard/articleCard";
+import * as data from '../logic/articles.json';
 
 export const ArticlesList = () => {
+  const articlesCards = data.default.map(item=> <ArticleCard key={item.title} { ...item } /> );
   return (
     <Container>
-      <ArticleCard />
-      <ArticleCard />
-      <ArticleCard />
+      {articlesCards}
     </Container>
   );
 };

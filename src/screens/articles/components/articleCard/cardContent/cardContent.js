@@ -10,12 +10,12 @@ import { SubTitle } from "./subTitle";
 import { Description } from "./description";
 import { ReadMoreButton } from "./readMoreButton";
 
-export const CardContent = () => {
+export const CardContent = (props) => {
   return (
     <Container>
-      <Label>VIM</Label>
+      <Label label={props.label} />
       <VerticalSpace height={20} />
-      <TitleSmall>Create color scheme for Vim</TitleSmall>
+      <TitleSmall>{props.title}</TitleSmall>
       <SubTitle>May 21, 2019 | 4 min read</SubTitle>
       <VerticalSpace height={20} />
       <Description>Vim is the perfect text editor for people who want the text editor to be perfect for them,  I have decided to create my own vim theme, and why not report about it?</Description>

@@ -1,0 +1,29 @@
+[
+  {
+    "img": "https://miro.medium.com/max/700/0*z--mIwe7OjCnx4Jz",
+    "label": "VIM",
+    "title": "Create color scheme for Vim",
+    "date": "21/05/2019",
+    "readTimeInMinutes": 4,
+    "description": "Vim is the perfect text editor for people who want the text editor to be perfect for them,  I have decided to create my own vim theme, and why not report about it?",
+    "link": "https://medium.com/@gillicarmon/create-color-scheme-for-vim-335e842e29ea"
+  },
+  {
+    "img": "https://miro.medium.com/max/700/0*6DVq_3MqA8ByQqQ4",
+    "label": "Career",
+    "title": "How to Ask Questions as a junior developer",
+    "date": "31/03/2020",
+    "readTimeInMinutes": 4,
+    "description": "Asking questions is a common part of a junior developer’s workday. I’ve learned that not all questions were born the same.",
+    "link": "https://medium.com/@gillicarmon/how-to-ask-questions-as-a-junior-developer-1f0c724ac902"
+  },
+  {
+    "img": "https://miro.medium.com/max/700/0*z--mIwe7OjCnx4Jz",
+    "label": "VIM",
+    "title": "Create color scheme for Vim3",
+    "date": "21/05/2019",
+    "readTimeInMinutes": 4,
+    "description": "Vim is the perfect text editor for people who want the text editor to be perfect for them,  I have decided to create my own vim theme, and why not report about it?",
+    "link": "https://medium.com/@gillicarmon/create-color-scheme-for-vim-335e842e29ea"
+  }
+]

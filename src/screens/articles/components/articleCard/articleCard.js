@@ -3,11 +3,11 @@ import styled from "styled-components";
 import { colorsPalette } from "services/styling/consts";
 import { CardContent } from "./cardContent/cardContent";
 
-export const ArticleCard = () => {
+export const ArticleCard = (props) => {
   return (
     <Container>
-        <Image src="https://miro.medium.com/max/700/0*z--mIwe7OjCnx4Jz"/>
-        <CardContent />
+        <Image src={props.img}/>
+        <CardContent {...props} />
     </Container>
   );
 };
