@@ -31,6 +31,8 @@
   "contactScreen.sendButton.label": "Let's do this",
 
   "articlesScreen.title": "Articles",
+  "articlesScreen.articleCard.subTitle": "{{date}} · {{readTimeInMinutes}} minutes read",
+  "articlesScreen.articleCard.readMore": "Read More",
 
 
   "pageNotFoundScreen.qoute.text1": "“If you don’t know where you are going, any road will take you there”",

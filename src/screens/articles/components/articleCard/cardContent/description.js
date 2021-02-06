@@ -5,6 +5,7 @@ export const Description = styled.p`
   color: ${colorsPalette.BLACK};
   font-family: ${MAIN_FONT};
   font-size: min(1vw, 20px);
-  /* font-weight: 700; */
   margin: 0;
+  height: 45%;
+  display: flex; justify-content: center; align-items: center;
 `;

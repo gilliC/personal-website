@@ -6,10 +6,10 @@ import { TitleSmall } from "common/titleSmall";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const ReadMoreButton = () => {
+export const ReadMoreButton = ({ link }) => {
   return (
-    <Link href="https://medium.com/@gillicarmon/create-color-scheme-for-vim-335e842e29ea" target="_blank" rel="noopener noreferrer">
-      <Text>Read More</Text>
+    <Link href={link} target="_blank" rel="noopener noreferrer">
+      <Text>{t("articlesScreen.articleCard.readMore")}</Text>
       <FontAwesomeIcon icon={faArrowRight} size="1x" color={colorsPalette.BLACK} />
     </Link>
   );
