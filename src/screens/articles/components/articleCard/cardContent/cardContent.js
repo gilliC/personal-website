@@ -21,7 +21,6 @@ export const CardContent = () => {
       <Description>Vim is the perfect text editor for people who want the text editor to be perfect for them,  I have decided to create my own vim theme, and why not report about it?</Description>
       <VerticalSpace height={20} />
       <Separator />
-      <VerticalSpace height={20} />
       <ReadMoreButton />
     </Container>
   );

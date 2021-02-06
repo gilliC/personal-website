@@ -5,14 +5,13 @@ import { ScreenTitle } from "common/screenTitle";
 import { t } from "services/translation/translate";
 import { VerticalSpace } from "common/verticalSpace";
 import { Header } from "./components/header";
-import { ArticleCard } from "./components/articleCard/articleCard";
+import { ArticlesList } from "./components/articlesList";
 
 export const ScreenArticles = () => {
   return (
       <BackgroundGradientRow topComponent={<Header />}>
         <Container>
-          <ArticleCard />
-          <h1>ARTICLES</h1>
+          <ArticlesList />
         </Container>
       </BackgroundGradientRow>
   );

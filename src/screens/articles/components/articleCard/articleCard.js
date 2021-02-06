@@ -1,9 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { TextMed } from "common/textMed";
-import { t } from "services/translation/translate";
-import { VerticalSpace } from "common/verticalSpace";
-import { TitleBig } from "common/titleBig";
 import { colorsPalette } from "services/styling/consts";
 import { CardContent } from "./cardContent/cardContent";
 
@@ -18,7 +14,7 @@ export const ArticleCard = () => {
 
 const Container = styled.div`
 background-color: ${colorsPalette.WHITE};
-height: 500px; width: 300px;
+height: max(450px, 55vh); width: min(350px,22vw);
 box-shadow: rgba(0, 0, 0, 0.78) 0px 10px 10px;
 border-bottom-right-radius: 50px; border-top-left-radius: 50px;
 `;
