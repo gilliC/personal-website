@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { TextMed } from "common/textMed";
 import { t } from "services/translation/translate";
-import { VerticalSpace } from "common/verticalSpace";
 import { TitleBig } from "common/titleBig";
 import { colorsPalette } from "services/styling/consts";
+import { SPACE_HEIGHT } from "common/backgroundGradientRow";
 
 export const Header = () => {
   return (
@@ -30,4 +29,5 @@ const Line = styled.div`
 const Container = styled.div`
   display: flex;
   align-items: center;
+  height: ${SPACE_HEIGHT};
 `;

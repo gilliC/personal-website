@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { BackgroundGradientRow } from "common/backgroundGradientRow";
-import { ScreenTitle } from "common/screenTitle";
-import { t } from "services/translation/translate";
-import { VerticalSpace } from "common/verticalSpace";
 import { Header } from "./components/header";
 import { ArticlesList } from "./components/articlesList";
 
