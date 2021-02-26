@@ -16,10 +16,11 @@ export const Link = ({ label, to }) => {
 };
 
 const StyledNavLink = styled(NavLink)`
-  font-family: ${MAIN_FONT};
-  color: ${colorsPalette.BLACK};
-  font-size: 16px;
+  font-family: ${MAIN_FONT}; color: ${colorsPalette.BLACK}; font-size: 16px; font-weight: 400;
   text-decoration: none;
   width: min(100vw, 100px);
-  font-weight: 400;
+  :hover {
+    background-color: pink;
+  }
+
 `;

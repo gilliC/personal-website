@@ -34,6 +34,8 @@
   "articlesScreen.articleCard.subTitle": "{{date}} · {{readTimeInMinutes}} minutes read",
   "articlesScreen.articleCard.readMore": "Read More",
 
+  "projectsScreen.title": "Projects",
+
 
   "pageNotFoundScreen.qoute.text1": "“If you don’t know where you are going, any road will take you there”",
   "pageNotFoundScreen.explnation.text1": "OOPS..",
