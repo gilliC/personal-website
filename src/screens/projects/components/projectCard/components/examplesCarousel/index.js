@@ -8,10 +8,11 @@ import img3 from "assets/projects/goal_tracker_3.gif";
 import img4 from "assets/projects/goal_tracker_4.gif";
 import img5 from "assets/projects/goal_tracker_5.gif";
 
-export const ExamplesCarousel = () => {
+export const ExamplesCarousel = ({ images }) => {
   const imagesArray = [img1, img2, img3, img4, img5];
-  const imagesItems = imagesArray.map((src) => {
-    return <img src={src} />;
+  if(!images) { return null; }
+  const imagesItems = images.map((src) => {
+    return <img src={src} alt="Example image" />;
   });
   return (
     <SideContainer>
@@ -30,10 +31,6 @@ export const ExamplesCarousel = () => {
 const SideContainer = styled.div`
   flex: 1;
   display: flex;
-  justify-content: center;
-  .carousel-style .carousel {
-    height: 40vh;
-    width: 25vh !important;
-    align-self: center;
-  }
+  justify-content: center; align-items: center;
+  .carousel-style .carousel { align-self: center; }
 `;

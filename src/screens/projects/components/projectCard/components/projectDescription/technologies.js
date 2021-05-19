@@ -1,15 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styled from "styled-components";
 import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 import { TextMed } from "common/textMed";
 import { Container } from "../container";
 
-export const Technologies = (props) => {
+export const Technologies = ({ technologiesSkills}) => {
+  const technologoiesText = technologiesSkills.map(item=>{
+    return <Fragment>{item} <br /></Fragment>;
+  });
   return (
     <Container>
       <SubTitle>Technologies</SubTitle>
       <TextMed>
-        React Native <br /> Redux
+        {technologoiesText}
       </TextMed>
     </Container>
   );

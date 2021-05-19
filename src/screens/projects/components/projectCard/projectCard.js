@@ -2,14 +2,18 @@ import React from "react";
 import styled from "styled-components";
 import { ProjectDescription } from "./components/projectDescription";
 import { ExamplesCarousel } from "./components/examplesCarousel";
+import { projectesList } from "screens/projects/projectsList";
 
 export const ProjectCard = (props) => {
-  return (
-    <Container>
-      <ProjectDescription />
-      <ExamplesCarousel />
-    </Container>
-  );
+  const projectsCards = projectesList.map((item) => {
+    return (
+      <Container>
+        <ProjectDescription {...item} />
+        <ExamplesCarousel images={item.images} />
+      </Container>
+    );
+  });
+  return projectsCards;
 };
 
 const Container = styled.div`

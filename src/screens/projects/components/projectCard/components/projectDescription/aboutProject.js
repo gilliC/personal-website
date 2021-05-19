@@ -4,14 +4,11 @@ import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 import { TextMed } from "common/textMed";
 import { Container } from "../container";
 
-export const AboutProject = (props) => {
+export const AboutProject = ({ title, description }) => {
   return (
     <Container>
-      <Title>Goals Tracker</Title>
-      <TextMed>
-        A simple react native app to track the amount of steps you take to
-        achieve your goals
-      </TextMed>
+      <Title>{title}</Title>
+      <TextMed>{description}</TextMed>
     </Container>
   );
 };

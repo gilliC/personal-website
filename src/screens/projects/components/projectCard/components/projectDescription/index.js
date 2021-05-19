@@ -8,10 +8,10 @@ import { Technologies } from "./technologies";
 export const ProjectDescription = (props) => {
   return (
     <SideContainer>
-      <AboutProject />
-      <Technologies />
+      <AboutProject {...props} />
+      <Technologies technologiesSkills={props.technologiesSkills} />
       <VerticalSpace flex={0.5}/>
-      <IconsRow />
+      <IconsRow links={props.links} />
     </SideContainer>
   );
 };

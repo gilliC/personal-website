@@ -8,5 +8,5 @@ export const ScreenContainer = ({ children }) => {
 
 const ContentCotainerStyled = styled(ContentCotainer)`
   position: absolute; top: 30vh; right: 25%;
-  width: 50%; height: 50%;
+  width: 50%; height: auto;
 `;
