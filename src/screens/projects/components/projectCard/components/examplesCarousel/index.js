@@ -12,9 +12,10 @@ export const ExamplesCarousel = ({ images }) => {
     <SideContainer>
       <Carousel
         className="carousel-style"
-        showIndicators={true}
+        showIndicators
         showThumbs={false}
         autoPlay={false}
+        infiniteLoop
       >
         {imagesItems}
       </Carousel>
