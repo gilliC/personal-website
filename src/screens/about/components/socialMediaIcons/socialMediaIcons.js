@@ -9,7 +9,7 @@ export const SocialMediaIcons = () => {
       <LinkedIcon url="https://www.linkedin.com/in/gilli-carmon/" icon={faLinkedinIn} />
       <LinkedIcon url="https://medium.com/@gillicarmon" icon={faMediumM} />
       <LinkedIcon url="https://twitter.com/GilliCarmon" icon={faTwitter} />
-      <LinkedIcon url="https://www.facebook.com/gilicarmon" icon={faFacebookSquare} />
+      {/* <LinkedIcon url="https://www.facebook.com/gilicarmon" icon={faFacebookSquare} /> */}
     </Container>
   );
 };
