@@ -5,7 +5,8 @@ import { MainButton } from "common/mainButton";
 
 export const ContactButton = () => {
   const onClick = () => {
-    console.log("CLICK CONTACT");
+    const email = 'gilli@carmon.org.il';
+    window.open(`mailto:${email}`);
   };
   return (
     <Container>
