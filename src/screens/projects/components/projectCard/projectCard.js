@@ -3,13 +3,14 @@ import styled from "styled-components";
 import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 import { TextMed } from "common/textMed";
 import { ProjectDescription } from "./components/projectDescription";
+import { ExamplesCarousel } from "./components/examplesCarousel";
 
 export const ProjectCard = (props) => {
   return (
     <Container>
       <ProjectDescription />
       <SideContainer>
-        <h1>RIGHT</h1>
+        <ExamplesCarousel />
       </SideContainer>
     </Container>
   );
