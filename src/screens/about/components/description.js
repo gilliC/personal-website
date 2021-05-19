@@ -11,9 +11,8 @@ export const Description = () => {
       <BoldText>{t("aboutScreen.niceToMeet")}</BoldText>
       <TextMed>{t("aboutScreen.about.text.1")}</TextMed>
       <TextMed>{t("aboutScreen.about.text.2")}</TextMed>
-      <TextMed>{t("aboutScreen.about.text.3")}</TextMed>
       <TextMed>{t("aboutScreen.about.text.4")}</TextMed>
-      <TextMed>{t("aboutScreen.about.text.5")}</TextMed>
+      {/* <TextMed>{t("aboutScreen.about.text.5")}</TextMed> */}
       <TextMed>{t("aboutScreen.about.text.6")}</TextMed>
       <VerticalSpace height={30} />
       <Beliefs />
