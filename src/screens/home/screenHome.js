@@ -9,14 +9,17 @@ export const ScreenHome = () => {
   return (
     <Container>
       <Titles />
-      <VerticalSpace height={50} />
+      <VerticalSpace flex={0.5} />
       <ContactButton />
+      <VerticalSpace flex={1} />
       <BackgroundImage />
     </Container>
   );
 };
 
 const Container = styled.div`
+  display: flex; flex-direction: column;
   padding-right: min(10vw, 100px);
   padding-left: min(10vw, 100px);
+  height: 100%;
 `;

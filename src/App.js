@@ -20,6 +20,13 @@ const Wrapper = styled.div`
     position: relative;
   }
 
+  .transition-group {
+    height: 100%;
+  }
+  .slide {
+    height: 100%;
+  }
+
   .slide-enter,
   .slide-exit {
   transition: transform ${ANIMATION_MS}ms ease-in-out;

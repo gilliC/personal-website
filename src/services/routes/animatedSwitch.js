@@ -6,7 +6,7 @@ import { ANIMATION_MS } from "../../App";
 export const AnimatedSwitch = withRouter(({ location }) => {
   const routesComponents = getRoutesComponents();
   return (
-    <TransitionGroup>
+    <TransitionGroup className="transition-group">
       <CSSTransition key={location.key} classNames="slide" timeout={ANIMATION_MS}>
         <Switch location={location}>{routesComponents}</Switch>
       </CSSTransition>

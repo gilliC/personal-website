@@ -8,7 +8,8 @@
 
   "homeScreen.bigTitle.name": "Gilli Carmon",
   "homeScreen.bigTitle.job": "Web & Mobile Developer",
-  "homeScreen.description": "I'm a developer from Israel. My passion is writing clean, elegant code for unique apps and websites.",
+  "homeScreen.description.1": "I'm a developer from Israel. My passion is writing clean, ",
+  "homeScreen.description.2": "elegant code for unique apps and websites.",
   "homeScreen.contactButton.text": "Contact",
 
   "aboutScreen.title": "About Me",
@@ -35,6 +36,8 @@
   "articlesScreen.articleCard.readMore": "Read More",
 
   "projectsScreen.title": "Projects",
+  "projectsScreen.technologies": "Technologies",
+  "projectsScreen.exampleCarousel.alt": "Example image",
 
 
   "pageNotFoundScreen.qoute.text1": "“If you don’t know where you are going, any road will take you there”",

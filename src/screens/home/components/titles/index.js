@@ -16,5 +16,6 @@ export const Titles = () => {
   );
 };
 const Container = styled.div`
-width: 700px;
+flex: 1;
+width: 60vw;
 `;

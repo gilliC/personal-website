@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { colorsPalette, MAIN_FONT } from "services/styling/consts";
 import { TextMed } from "common/textMed";
 import { Container } from "../container";
+import { t } from "services/translation/translate";
 
 export const Technologies = ({ technologiesSkills}) => {
   const technologoiesText = technologiesSkills.map(item=>{
@@ -10,7 +11,7 @@ export const Technologies = ({ technologiesSkills}) => {
   });
   return (
     <Container>
-      <SubTitle>Technologies</SubTitle>
+      <SubTitle>{t("projectsScreen.technologies")}</SubTitle>
       <TextMed>
         {technologoiesText}
       </TextMed>
